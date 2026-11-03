@@ -27,7 +27,7 @@ const PROFILE = {
   },
   links: {
     linkedin: "https://www.linkedin.com/in/rodrigo-portugal-1b913236b/",
-    github: "", // Pon aquí tu URL de GitHub, p. ej. "https://github.com/tu-usuario"
+    github: "https://github.com/rodrigoportugal-dev",
     email: "",  // Opcional: tu email de contacto. Si lo dejas vacío no aparece.
   },
   about: {
@@ -190,7 +190,7 @@ const PROJECTS = [
       en: "This very website: a bilingual page with light and dark modes, where all content comes from a single data file so adding new projects takes seconds.",
     },
     tech: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
-    repo: "",
+    repo: "https://github.com/rodrigoportugal-dev/rodrigoportugal-dev.github.io",
     demo: "",
     image: "",
   },
