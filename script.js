@@ -19,6 +19,7 @@ const UI = {
     "cta.linkedin": "LinkedIn",
     "cta.github": "GitHub",
     "cta.email": "Contacto",
+    "cta.cv": "Descargar CV",
     "theme": "Cambiar tema",
     "lang": "Cambiar idioma",
   },
@@ -41,6 +42,7 @@ const UI = {
     "cta.linkedin": "LinkedIn",
     "cta.github": "GitHub",
     "cta.email": "Contact",
+    "cta.cv": "Download CV",
     "theme": "Toggle theme",
     "lang": "Change language",
   },
@@ -69,6 +71,8 @@ function linksHtml(cls) {
   const out = [];
   if (linkedin) out.push(`<a class="${cls} primary" href="${esc(linkedin)}" target="_blank" rel="noopener">${t("cta.linkedin")}</a>`);
   if (github) out.push(`<a class="${cls}" href="${esc(github)}" target="_blank" rel="noopener">${t("cta.github")}</a>`);
+  const cv = PROFILE.links.cv && PROFILE.links.cv[lang];
+  if (cv) out.push(`<a class="${cls}" href="${esc(cv)}" target="_blank" rel="noopener">${t("cta.cv")}</a>`);
   if (email) out.push(`<a class="${cls}" href="mailto:${esc(email)}">${t("cta.email")}</a>`);
   return out.join("");
 }

@@ -6,7 +6,7 @@ Web personal bilingüe (español / inglés) publicada con GitHub Pages.
 
 Todo el texto está en **`data.js`**:
 
-- `PROFILE`: nombre, titular, "Sobre mí" y enlaces (LinkedIn, GitHub, email).
+- `PROFILE`: nombre, titular, "Sobre mí" y enlaces (LinkedIn, GitHub, CV, email). Los PDF del CV están en la carpeta `cv/`; si los sustituyes, sube el número `?v=` de `index.html`.
 - `EDUCATION`, `EXPERIENCE`, `SKILLS`, `COURSES`: formación, experiencia, aptitudes y asignaturas.
 - `PROJECTS`: los proyectos. Para añadir uno, copia un bloque `{ ... }` y cambia sus datos.
   - `status`: `"done"` (terminado), `"wip"` (en curso) o `"planned"` (próximamente).

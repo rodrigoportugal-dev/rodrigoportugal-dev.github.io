@@ -28,6 +28,7 @@ const PROFILE = {
   links: {
     linkedin: "https://www.linkedin.com/in/rodrigo-portugal-dev/",
     github: "https://github.com/rodrigoportugal-dev",
+    cv: { es: "cv/CV_Rodrigo_Portugal_ES.pdf", en: "cv/CV_Rodrigo_Portugal_EN.pdf" },
     email: "",  // Opcional: tu email de contacto. Si lo dejas vacío no aparece.
   },
   about: {
