@@ -134,8 +134,8 @@ const SKILLS = [
   {
     group: { es: "Personales e idiomas", en: "Soft skills & languages" },
     items: {
-      es: ["Resolución de problemas", "Trabajo en equipo", "Comunicación", "Adaptabilidad", "Español (nativo)", "Inglés"],
-      en: ["Problem solving", "Teamwork", "Communication", "Adaptability", "Spanish (native)", "English"],
+      es: ["Resolución de problemas", "Trabajo en equipo", "Comunicación", "Adaptabilidad", "Español (nativo)", "Inglés (B2)"],
+      en: ["Problem solving", "Teamwork", "Communication", "Adaptability", "Spanish (native)", "English (B2)"],
     },
   },
 ];
