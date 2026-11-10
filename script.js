@@ -135,7 +135,6 @@ function render() {
 
   $("status").textContent = PROFILE.status[lang];
   $("name").textContent = PROFILE.name;
-  $("initials").textContent = PROFILE.initials;
   $("headline").textContent = PROFILE.headline[lang];
   $("location").textContent = PROFILE.location[lang];
   $("tags").innerHTML = PROFILE.tags[lang].map((x) => `<li>${esc(x)}</li>`).join("");
