@@ -26,7 +26,7 @@ const PROFILE = {
     en: "Open to internships and junior roles",
   },
   links: {
-    linkedin: "https://www.linkedin.com/in/rodrigo-portugal-1b913236b/",
+    linkedin: "https://www.linkedin.com/in/rodrigo-portugal-dev/",
     github: "https://github.com/rodrigoportugal-dev",
     email: "",  // Opcional: tu email de contacto. Si lo dejas vacío no aparece.
   },
@@ -198,10 +198,10 @@ const PROJECTS = [
     status: "planned",
     title: { es: "Trabajo Fin de Grado", en: "Bachelor's Thesis" },
     text: {
-      es: "Proyecto de fin de carrera relacionado con la inteligencia artificial. Tema en definición; se desarrollará durante el segundo semestre del curso 2026-27.",
-      en: "Final-year project related to artificial intelligence. Topic being defined; it will be developed during the second semester of 2026-27.",
+      es: "Proyecto de fin de carrera. Se desarrollará durante el segundo semestre del curso 2026-27.",
+      en: "Final-year project, to be developed during the second semester of 2026-27.",
     },
-    tech: ["Python", "Machine Learning"],
+    tech: [],
     repo: "",
     demo: "",
     image: "",
