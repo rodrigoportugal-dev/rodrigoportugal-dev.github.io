@@ -185,6 +185,18 @@ const COURSES = [
 const PROJECTS = [
   {
     status: "done",
+    title: { es: "Clasificador de noticias con IA", en: "AI news classifier" },
+    text: {
+      es: "Clasifica noticias de Reuters en 80 temas. Representaciones Binary, TF y TF-IDF y clasificadores Naive Bayes, distancia mínima y KNN programados desde cero, sin librerías de ML. Mejor resultado: 83,9 % de acierto, verificado contra scikit-learn. Proyecto del Erasmus en la ZČU, ampliado después con demo web, tests y métricas por clase.",
+      en: "Classifies Reuters news articles into 80 topics. Binary, TF and TF-IDF features and Naive Bayes, Minimum Distance and KNN classifiers written from scratch, with no ML libraries. Best result: 83.9% accuracy, verified against scikit-learn. Erasmus project at ZČU, later extended with a web demo, tests and per-class metrics.",
+    },
+    tech: ["Python", "Machine Learning", "NLP", "Streamlit", "pytest"],
+    repo: "https://github.com/rodrigoportugal-dev/reuters-classifier",
+    demo: "https://reuters-classifier-rodrigo.streamlit.app/",
+    image: "",
+  },
+  {
+    status: "done",
     title: { es: "Portfolio personal", en: "Personal portfolio" },
     text: {
       es: "Esta misma web: una página bilingüe, con modo claro y oscuro, en la que todo el contenido sale de un único archivo de datos para que añadir proyectos sea inmediato.",
